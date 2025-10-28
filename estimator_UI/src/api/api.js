@@ -4,7 +4,6 @@ const BASE_URL = "http://localhost:8081";
 
 export const getCategories = async () => {
   const res = await axios.get(`${BASE_URL}/categories`);
-  console.log(res.data);
   return res.data;
 };
 

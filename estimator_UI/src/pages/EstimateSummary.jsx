@@ -27,11 +27,11 @@ function EstimateSummary() {
         >
           Edit Selection
         </button>
-        <button
+        {/* <button
           className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-600"
         >
           Request Detailed Quote
-        </button>
+        </button> */}
       </div>
     </div>
   );
