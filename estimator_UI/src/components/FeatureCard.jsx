@@ -7,7 +7,6 @@ function FeatureCard({ feature, onSelect, selected }) {
       }`}
     >
       <h4 className="text-lg font-medium">{feature.name}</h4>
-      <p className="text-gray-500 text-sm">+${feature.cost}</p>
     </div>
   );
 }

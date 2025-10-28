@@ -9,7 +9,7 @@ function Navbar() {
         <Link to="/summary" className="hover:text-primary">Estimate</Link>
         <Link
           to="/features"
-          className="bg-primary text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600 transition"
+          className="text-white px-4 py-2 rounded-lg shadow bg-blue-500 transition"
         >
           Start Estimating
         </Link>

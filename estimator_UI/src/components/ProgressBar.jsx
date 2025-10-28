@@ -1,8 +1,8 @@
 function ProgressBar({ progress }) {
   return (
-    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
+    <div className="w-full bg-gray-200 rounded-full h-3 mb-4">
       <div
-        className="bg-primary h-2.5 rounded-full transition-all"
+        className="bg-blue-600 h-3 rounded-full transition-all duration-300"
         style={{ width: `${progress}%` }}
       ></div>
     </div>
