@@ -7,7 +7,7 @@ function LandingPage() {
       <p className="text-gray-600 mb-6">Estimate your app development cost in minutes.</p>
       <Link
         to="/features"
-        className="bg-primary text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
+        className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
       >
         Start Estimating
       </Link>
